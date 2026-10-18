@@ -1,0 +1,33 @@
+{
+  "name": "@qmoosa/governance-dashboard",
+  "version": "1.0.0",
+  "description": "QMOOSA Governance Dashboard — Web4 Autonomous Governance Terminal, Voting Gauge & Timelock Radar",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test tests/dashboard.test.mjs",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  },
+  "keywords": [
+    "qmoosa",
+    "governance",
+    "dashboard",
+    "web4",
+    "timelock",
+    "voting",
+    "telemetry",
+    "defi"
+  ],
+  "author": "elon00",
+  "license": "MIT"
+}
